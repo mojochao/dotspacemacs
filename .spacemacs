@@ -315,7 +315,6 @@ you should place your code here."
   (require 'key-chord)
   (key-chord-mode 1)
   (key-chord-define evil-insert-state-map  "jk" 'evil-normal-state)
-  (setq paradox-github-token "8cadca461f9e9320b9efdf435eb34210977e0d26")
   (add-to-list 'auto-mode-alist '(".babelrc\\'" . json-mode))
   (add-to-list 'auto-mode-alist '(".eslintignore\\'" . gitignore-mode))
   (add-to-list 'auto-mode-alist '(".eslintrc\\'" . json-mode))
